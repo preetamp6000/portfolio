@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>preetam</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="meyawo.css">
+    <link rel="stylesheet" href="swap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        
+        /* Additional CSS for alignment */
+        .about {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: row; /* Change flex-direction to row */
+            text-align: left; /* Align text to the left */
+        }
+
+        .about-img-holder {
+            flex: 1; /* Make the image container take up 50% of the available space */
+            margin-right: 20px; /* Add some spacing between the image and text */
+        }
+
+        .about-caption {
+            flex: 1; /* Make the text container take up 50% of the available space */
+        }
+
+        .portfolio-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        .portfolio-card-img {
+            width: 100%;
+            height: auto;
+        }
+
+        .portfolio-card-caption {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            color: #fff;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        /* CSS for progress bars */
+        .skill {
+            margin-bottom: 20px;
+        } 
+
+        .progress {
+            height: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .progress-bar {
+            background-color: #8d2ef3;
+            color: #fff;
+            text-align: center;
+            line-height: 20px;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">Preetam</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am PREETAM PATIL</span>
+            </h1>
+            <p class="header-subtitle"></p>
+            <!-- <a href="https://firebasestorage.googleapis.com/v0/b/swanand-portfolio-bb771.appspot.com/o/Swanand-Patil.pdf?alt=media&token=e3dc63b9-b1b5-46ef-b2f8-8478f2ee81a6" class="btn btn-primary">Resume</a> -->
+        </div>
+       
+    </header><!-- end of page header -->
+    <div class ="container">
+        <!-- <header class="header-subtitle"> -->
+            
+        <!-- </header> -->
+    </div>
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="p1.jpg" class="about-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Who Am I ?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                         Welcome to my portfolio! I,m Preetam, a dedicated software engineer specializing in C,C++,java and front end development.
+                         With a passion for crafting efficient code and building user friendly interfaces, I thrive on bringing innvotative solutions in life.
+                        <br>Currently working on web development. Sanjay ghodawat university kolhapur!
+                    </p>
+                    <a href="https://firebasestorage.googleapis.com/v0/b/preetam-93b44.appspot.com/o/resume.pdf?alt=media&token=7caca6fb-bcce-47a9-9437-a5df88008130" class="btn btn-primary">Resume</a>
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+    <!-- Achievement section -->
+    <!-- <section class="section" id="achievements">
+        <div class="container">
+            <p class="section-subtitle text-center"></p>
+            <h6 class="section-title mb-6 text-center">My Achievements</h6>
+            < Add your achievements here -->
+            <!-- <p> Academic achievements :-</p>
+            <ul>
+                <li>Certificates of completion for online courses related to computer science, programming languages, or design.</li>
+            </ul>
+            <p>Projects and Contributions:-</p>
+            <ul>
+                <li>Development of websites.</li>
+                <li>Designing user interfaces for projects or websites.</li>
+            </ul>
+            <p>Skills and Competencies:-</p>
+            <ul>
+                <li>Proficiency in programming languages like Java, C++, HTML/CSS, JavaScript, etc.</li>
+                <li>Familiarity with frameworks and libraries relevant to web development or design.</li>
+            </ul>
+        </div>
+    </section> --> 
+    
+    
+
+    <!-- portfolio section -->
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <p class="section-subtitle"></p>
+            <h6 class="section-title mb-6">Project Portfolio</h6>
+            <!-- row -->
+            <div class="row">
+                <!-- Existing portfolio cards -->
+                <div class="col-md-4">
+                    <a href="https://github.com/preetamp6000/atm-management" class="portfolio-card">
+                        <img src="atm.png" class="portfolio-card-img"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>C++ project</h4>
+                                <p class="font-weight-normal">language: c and c++</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://github.com/preetamp6000/tic-tac-toe" class="portfolio-card">
+                        <img class="portfolio-card-img" src="tictactoe.jpeg" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Java project</h4>
+                                <p class="font-weight-normal">languages: java </p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://firebasestorage.googleapis.com/v0/b/swanand-portfolio-bb771.appspot.com/o/index.html?alt=media&token=0d76efbe-3175-40fb-ae41-d66516795d76" class="portfolio-card">
+                        <img class="portfolio-card-img" src="pf.png" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web project</h4>
+                                <p class="font-weight-normal">languages : HTML and CSS</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
+
+    <!-- skills section -->
+    <section class="section" id="skills">
+        <div class="container text-center">
+            <p class="section-subtitle"></p>
+            <h6 class="section-title mb-6">My Skills</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="skill">
+                        <h6>HTML</h6>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%;">70%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h6>Cloud computing</h6>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 60%;">60%</div>
+                        </div>
+                    </div>
+                    <!-- Add more skills here -->
+                </div>
+                <div class="col-md-6">
+                    <div class="skill">
+                        <h6>Java</h6>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 60%;">60%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h6>c++</h6>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 65%;">65%</div>
+                        </div>
+                    </div>
+                    <!-- Add more skills here -->
+                </div>
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section><!-- end of skills section -->
+
+    <!-- certificate section -->
+    <section class="section" id="certificate">
+        <div class="container text-center">
+            <p class="section-subtitle"></p>
+            <h6 class="section-title mb-6">My Certificates</h6>
+            <!-- row -->
+            <div class="row">
+                <!-- Certificate images -->
+                <div class="col-md-4">
+                    <a href="https://firebasestorage.googleapis.com/v0/b/preetam-93b44.appspot.com/o/c1.jpg?alt=media&token=22ded2dd-b89e-41fd-bca9-3892dd733899" class="portfolio-card">
+                        <img src="c1.jpg" class="portfolio-card-img"
+                            alt="Certificate 1">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://firebasestorage.googleapis.com/v0/b/preetam-93b44.appspot.com/o/c2.jpg?alt=media&token=21b63540-dab2-4f3e-9ed9-ecbd9ec4a9ea" class="portfolio-card">
+                        <img src="c2.jpg" class="portfolio-card-img"
+                            alt="Certificate 2">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://firebasestorage.googleapis.com/v0/b/preetam-93b44.appspot.com/o/c3.jpg?alt=media&token=a155ecbd-a29f-492c-9d7d-d364742e76d8" class="portfolio-card">
+                        <img src="c3.jpg" class="portfolio-card-img"
+                            alt="Certificate 3">
+                    </a>
+                </div>
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section><!-- end of certificate section -->
+
+    <!-- section -->
+    <!-- <section class="section-sm bg-primary">
+        <!- container -->
+        <!-- <div class="container text-center text-sm-left">
+            < row -->
+            <!-- <div class="row align-items-center"> -->
+                <!-- <div class="col-sm offset-md-1 mb-4 mb-md-0"> -->
+                    <!-- <h6 class="title text-light">Quick contact with mail?</h6> -->
+                    <!-- <p class="m-0 text-light">press the button</p> -->
+                <!-- </div> -->
+                <!-- <div class="col-sm offset-sm-2 offset-md-3"> -->
+                    <!-- <button class="btn btn-lg my-font btn-light rounded" onclick="location.href='mailto:pritampatil6000@gmail.com';">Gmail</button> --> 
+                <!-- </div> -->
+            <!-- </div> end of row -->
+        <!-- </div> end of container -->
+    <!-- </section> end of section --> 
+
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <!-- <p class="section-subtitle">How can you communicate?</p> -->
+            <h6 class="section-title mb-5">Contact Me</h6>
+            <!-- contact form -->
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form col-md-10 col-lg-8 m-auto" >
+                <div class="form-row">
+                    <div>
+                <!-- Replace with your Access Key -->
+                <input type="hidden" name="access_key" value="72c56d35-a3bd-48a9-bccc-2fa6d34eff92">
+            </div>
+                <!-- Form Inputs. Each input must have a name="" attribute -->
+                <div class="form-group col-sm-6">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="form-group col-sm-6">
+                <input type="email" name="email" class="form-control"  placeholder="Your Email" required>
+            </div>
+            <div class="form-group col-sm-12">
+                <textarea name="message" class="form-control" rows="6" placeholder="Message" required></textarea>
+            </div>
+            <div class="form-group col-sm-12 mt-3">
+                <button type="submit" class="btn btn-outline-primary rounded" >Submit </button>
+            </div>
+            </div>
+            </form>
+            <!-- Required for hCaptcha -->
+            <script src="https://web3forms.com/client/script.js" async defer></script>
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="https://www.facebook.com/share/QjGwqSVFV91vLzzZ/?mibextid=qi2Omg" class="link"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/Preetam3132?t=CIeLZeY06iqDmkeJX7sONA&s=09" class="link"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/preetampatil6000?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="link"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/pritamm.6000_?igsh=MTljM3FyejA2dG1pNQ==" class="link"><i class="fa-brands fa-square-instagram"></i></i></a>
+            </div>
+        </footer>
+    </div> <!-- end of page footer -->
+
+    <!-- core  -->
+    <script src="jquery/jquery-3.4.1.js"></script>
+    <script src="bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="meyawo.js"></script>
+
+</body>
+
+</html>
